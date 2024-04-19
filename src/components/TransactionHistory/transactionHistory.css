@@ -1,61 +1,55 @@
 .transaction-history {
- width: 85vw;
- display: flex;
- justify-content: space-between;
- align-items: center;
- flex-direction: column;
- border-radius: 5px;
- box-shadow:
-
-  2px 2px 2rem rgba(81, 60, 60, 0.6);
- background-color: rgb(238, 238, 238);
+  width: 85vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2rem rgba(81, 60, 60, 0.6);
+  background-color: rgb(238, 238, 238);
 }
 
 thead {
- width: 100%;
- border-radius: 5px;
+  width: 100%;
+  border-radius: 5px;
 }
 
 thead tr {
- display: flex;
+  display: flex;
 
- width: 100%;
- justify-content: space-evenly;
- border-radius: 5px;
+  width: 100%;
+  justify-content: space-evenly;
+  border-radius: 5px;
 }
 
-
 th {
- width: calc(100% /3);
- box-shadow:
-  inset 0 0 4px rgba(255, 255, 255, 0.9);
- padding-block: 20px;
- border-radius: 5px;
- background-color: rgb(37, 25, 9);
- color: rgb(208, 199, 189);
-
+  width: calc(100% / 3);
+  box-shadow: inset 0 0 4px rgba(255, 255, 255, 0.9);
+  padding-block: 20px;
+  border-radius: 5px;
+  background-color: rgb(37, 25, 9);
+  color: rgb(208, 199, 189);
 }
 
 tbody {
- display: flex;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
- width: 100%;
+  width: 100%;
 }
 
 tbody tr {
- display: flex;
- width: 100%;
+  display: flex;
+  width: 100%;
 }
 
 tbody tr td {
- width: calc(100% /3);
- box-shadow:
-  inset 0 0 4px rgb(255, 255, 255);
- opacity: 0.5;
- padding-block: 20px;
- border-radius: 3px;
- display: flex;
- justify-content: center;
- text-transform: capitalize;
+  width: calc(100% / 3);
+  box-shadow: inset 0 0 4px rgb(255, 255, 255);
+  opacity: 0.5;
+  padding-block: 20px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
 }
